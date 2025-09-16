@@ -1,4 +1,4 @@
-import { Home, Map, Search, Bell, Settings } from "lucide-react";
+import { Home, Map, Search, Bell, Compass } from "lucide-react";
 
 interface NavigationProps {
   activeTab: string;
@@ -7,11 +7,11 @@ interface NavigationProps {
 
 export function Navigation({ activeTab, onTabChange }: NavigationProps) {
   const tabs = [
-    { id: 'dashboard', icon: Home, label: 'Dashboard' },
-    { id: 'map', icon: Map, label: 'Map' },
-    { id: 'search', icon: Search, label: 'Search' },
-    { id: 'alerts', icon: Bell, label: 'Alerts' },
-    { id: 'settings', icon: Settings, label: 'Settings' },
+  { id: 'dashboard', icon: Home, label: 'Dashboard' },
+  { id: 'map', icon: Map, label: 'Map' },
+  { id: 'search', icon: Search, label: 'Search' },
+  { id: 'alerts', icon: Bell, label: 'Alerts' },
+  { id: 'decision', icon: Compass, label: 'Decision' },
   ];
 
   return (

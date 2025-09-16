@@ -4,7 +4,7 @@ import { Dashboard } from "./components/Dashboard";
 import { MapView } from "./components/MapView";
 import { SearchView } from "./components/SearchView";
 import { AlertsView } from "./components/AlertsView";
-import { SettingsView } from "./components/SettingsView";
+import { DecisionSupport } from "./components/DecisionSupport";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -19,8 +19,8 @@ export default function App() {
         return <SearchView />;
       case "alerts":
         return <AlertsView />;
-      case "settings":
-        return <SettingsView />;
+      case "decision":
+        return <DecisionSupport />;
       default:
         return <Dashboard />;
     }

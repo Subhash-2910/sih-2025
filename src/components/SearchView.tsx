@@ -12,7 +12,7 @@ const mockSearchResults = [
     name: "Station Alpha",
     location: "Mumbai, Maharashtra",
     region: "Western",
-    waterLevel: 12.5,
+    waterLevel: 14.5,
     trend: "down",
     status: "active",
     rechargeRate: 85,
